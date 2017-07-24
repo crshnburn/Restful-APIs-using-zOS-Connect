@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="IMSPHBK" direction="0" serviceType="IMS">
+    <message id="1" name="IMSPHBK">
+        <segment id="1" name="Segment 1" originalName="Segment 1">
+            <field name="IVTNO_INPUT_MSG" originalName="IVTNO_INPUT_MSG" included="Y" path="IVTNO_INPUT_MSG">
+                <startPos>1</startPos>
+                <bytes>59</bytes>
+                <maxBytes>59</maxBytes>
+                <marshaller alignment="NATURAL"/>
+                <applicationDatatype datatype="STRUCT"/>
+                <field name="IN_LL" originalName="IN_LL" included="Y" path="IVTNO_INPUT_MSG.IN_LL">
+                    <startPos>1</startPos>
+                    <bytes>2</bytes>
+                    <maxBytes>2</maxBytes>
+                    <marshaller isNativeInteger="N" alignment="NATURAL"/>
+                    <applicationDatatype datatype="SHORT" precision="3"/>
+                </field>
+                <field name="IN_ZZ" originalName="IN_ZZ" included="Y" path="IVTNO_INPUT_MSG.IN_ZZ">
+                    <startPos>3</startPos>
+                    <bytes>2</bytes>
+                    <maxBytes>2</maxBytes>
+                    <marshaller isNativeInteger="N" alignment="NATURAL"/>
+                    <applicationDatatype datatype="SHORT" precision="3"/>
+                </field>
+                <field name="IN_TRANCDE" originalName="IN_TRANCDE" included="Y" path="IVTNO_INPUT_MSG.IN_TRANCDE">
+                    <startPos>5</startPos>
+                    <bytes>10</bytes>
+                    <maxBytes>10</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+                <field name="IN_COMMAND" originalName="IN_COMMAND" included="Y" path="IVTNO_INPUT_MSG.IN_COMMAND">
+                    <startPos>15</startPos>
+                    <bytes>8</bytes>
+                    <maxBytes>8</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+                <field name="IN_LAST_NAME" originalName="IN_LAST_NAME" included="Y" path="IVTNO_INPUT_MSG.IN_LAST_NAME">
+                    <startPos>23</startPos>
+                    <bytes>10</bytes>
+                    <maxBytes>10</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+                <field name="IN_FIRST_NAME" originalName="IN_FIRST_NAME" included="Y" path="IVTNO_INPUT_MSG.IN_FIRST_NAME">
+                    <startPos>33</startPos>
+                    <bytes>10</bytes>
+                    <maxBytes>10</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+                <field name="IN_EXTENSION" originalName="IN_EXTENSION" included="Y" path="IVTNO_INPUT_MSG.IN_EXTENSION">
+                    <startPos>43</startPos>
+                    <bytes>10</bytes>
+                    <maxBytes>10</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+                <field name="IN_ZIP_CODE" originalName="IN_ZIP_CODE" included="Y" path="IVTNO_INPUT_MSG.IN_ZIP_CODE">
+                    <startPos>53</startPos>
+                    <bytes>7</bytes>
+                    <maxBytes>7</maxBytes>
+                    <applicationDatatype datatype="CHAR"/>
+                </field>
+            </field>
+        </segment>
+    </message>
+</ns2:message>
